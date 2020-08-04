@@ -1,0 +1,69 @@
+body {
+  background: #FFF;
+  color: #2c3e50;
+  font-family: "Helvetica";
+  font-size: 15px;
+  font-weight: 400;
+  height: 100vh;
+  line-height: 1.25;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  -webkit-text-size-adjust: 100%;
+}
+
+input {
+  padding-left: 1rem;
+}
+
+label {
+  margin-right: 1rem;
+}
+
+ul {
+list-style-type: none;
+}
+
+#app {
+  height: 100%;
+}
+
+.wrapper {
+  background-color: #d6eaf0;
+  border: 1px solid #61dafb;
+  border-radius: 10px;
+  height: 22rem;
+  margin: 10% auto;
+  padding: 5rem;
+  width: 35rem;
+}
+
+.item-input {
+  border: 0;
+  border-radius: 5px;
+  height: 1.7rem;
+  width: 15rem;
+}
+
+.input-wrapper {
+  margin-right: 1rem;
+}
+
+.item-form {
+  align-items: center;
+  display: flex;
+}
+
+.item-button {
+  border-radius: 8px;
+  border:1px solid #b8c9ce;
+  box-shadow: none;
+  height: 2rem;
+  width: 4rem;
+}
+
+.item-input:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
